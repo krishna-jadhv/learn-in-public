@@ -10,3 +10,9 @@ A simple JavaScript project that randomly changes the background color every sec
 1. Clone the repo:
    ```bash
    git clone https://github.com/krishna-jadhv/random-color-changer.git
+
+
+2. Live:
+   ```bash
+   https://learn-in-public.vercel.app/
+![alt text](https://i.imgur.com/bUHf4bA.png)
