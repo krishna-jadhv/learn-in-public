@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient color </title>
+    <style>
+        body{
+            background-color:black;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        button{
+            padding: 1em 2em;
+            background-color: #161a20;
+            color: #f0f0f0;
+            border: none;
+            border-radius: 1000px ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        button::after{
+            content: '';
+            position: absolute;
+            background-image: linear-gradient(to bottom right, #FF007F, #e292cb  );
+            height: 109%;
+            width: 105%;
+            border-radius: 1000px;
+            z-index: -1;
+
+        }
+        button:hover{
+            z-index: 0;
+            box-shadow: 40px 0 100px #FF007F, -40px 0 100px #e292cb;
+        }
+
+    </style>
+</head>
+<body>
+        <button>Submit</button>
+</body>
+</html>
