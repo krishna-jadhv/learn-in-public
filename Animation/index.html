@@ -7,7 +7,9 @@
     <style>
         body{
             background-color: rgb(244, 6, 6);
-
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .tran{
@@ -15,20 +17,22 @@
             height: 100px;
             width: 100px;
             z-index: 1;
-            transition-property: all;
-            transition-duration: 1.8s;
-            transition-delay: 0s;
-            transition-timing-function:ease-in-out;
+            transition:width 2s, height 4s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(59, 26, 204);
         }
 
         .tran:hover{
             width: 500px;
-            height: 500px;
+            color: rgb(210, 233, 126);
+            height: 200px;
             background-color: black;
         }
     </style>
 </head>
 <body>
-    <div class="tran"></div>
+    <div class="tran">transition 1</div>
 </body>
 </html>
