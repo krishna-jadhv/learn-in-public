@@ -1,0 +1,39 @@
+body{
+    background-image: url();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div:has(> blockquote) {
+    background-color: red;
+    margin: 50px 80px 20px 80px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  blockquote p::before {
+    content: '\201C';
+  }
+  
+  blockquote p::after {
+    content: '\201D';
+  }
+  
+  blockquote + p {
+    text-align: right;
+  }
+  
+  p{
+    font-size: larger;
+    font-weight: bold;
+
+  }
+
+  .one{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

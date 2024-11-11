@@ -8,11 +8,24 @@
         body{
             background-color:black;
             min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
+            
         }
+
+        input{
+            padding: 18px 0px 18px 68px;
+            height: 38px;
+            width: 230px;
+            border: none;
+            outline: none;
+            margin: 50px 0px 20px;
+            border: transparent;
+            border-radius: 30px;
+            background-color: #161a20; 
+            color: white;
+            
+            
+        }
+
 
         button{
             padding: 1em 2em;
@@ -44,9 +57,20 @@
             box-shadow: 40px 0 100px #FF007F, -40px 0 100px #e292cb;
         }
 
+        
     </style>
 </head>
 <body>
+    <div style="display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;">
+    <div>
+        <input type="email" placeholder="Enter Your mail address" class="input">
+    </div>
+        <div>
         <button>Submit</button>
+        </div>
+    </div>
 </body>
 </html>

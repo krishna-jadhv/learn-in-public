@@ -1,0 +1,104 @@
+body {
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Impdiv {
+    margin-bottom: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FF007F;
+}
+
+#mainDiv {
+    /* background-color: white; */
+    width: 50%;
+    /* border: #FF007F solid 2px; */
+    border-radius: 50px;
+    box-shadow: 0 8px 25px rgba(255, 0, 127, 0.5), 0 -8px 25px rgba(226, 146, 203, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    overflow-wrap: break-word;
+    z-index: 1;
+    /* width: auto; Allow width to adjust based on content */
+    max-width: 90%; /* Limit max width to prevent overflowing the screen */
+    min-height: 150px; /* Set a minimum height */
+}
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: #FF007F 1px solid;
+    width: 500px;
+}
+
+.text {
+    color: #FF007F;
+    width: fit-content; /* Use full width */
+    max-width: 100%; /* Ensure it doesn't exceed mainDiv's width */
+    white-space: nowrap; /* Allow text to wrap to the next line */
+    overflow: hidden;
+    border-right: 5px solid #FF007F; /* Optional: border for effect */
+    margin-bottom: 40px;
+    /* animation: typing 2s, cursor .8s step-end infinite alternate; */
+    animation-fill-mode: forwards;
+    font-size: 2vh;
+    text-align: center;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent; }
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+button {
+    padding: 1em 2em;
+    background-color: #ff9eb5;
+    color: #FF007F;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-image: linear-gradient(to bottom right, #FF007F, #e292cb);
+    color: white;
+    box-shadow: 0 0 20px #FF007F, 0 0 40px #e292cb;
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to bottom right, #FF007F, #e292cb);
+    height: 108%;
+    width: 102%;
+    border-radius: 50px;
+    z-index: -1;
+    transition: transform 0.3s;
+    top: -3.5%;
+    left: -1%;
+}
+
+button:hover::after {
+    transform: scale(1.05);
+}
