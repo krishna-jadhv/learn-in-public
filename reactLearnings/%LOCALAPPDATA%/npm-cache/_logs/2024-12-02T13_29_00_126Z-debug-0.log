@@ -1,0 +1,41 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.17.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\.npmrc
+5 silly config load:file:C:\Users\Krishna jadhav\.npmrc
+6 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%\npm\etc\npmrc
+7 verbose title npm exec create-react-app 01basicreact
+8 verbose argv "exec" "--" "create-react-app" "01basicreact"
+9 verbose logfile logs-max:10 dir:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%LOCALAPPDATA%\npm-cache\_logs\2024-12-02T13_29_00_126Z-
+10 verbose logfile C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%LOCALAPPDATA%\npm-cache\_logs\2024-12-02T13_29_00_126Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 http fetch GET 200 https://registry.npmjs.org/npm 382ms
+14 http fetch GET 200 https://registry.npmjs.org/create-react-app 1069ms (cache miss)
+15 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+16 verbose stack Error: ENOENT: no such file or directory, lstat 'C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%'
+16 verbose stack     at async lstat (node:internal/fs/promises:1021:18)
+16 verbose stack     at async #loadActual (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\load-actual.js:112:20)
+16 verbose stack     at async exec (C:\Program Files\nodejs\node_modules\npm\node_modules\libnpmexec\lib\index.js:207:26)
+16 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:207:9)
+16 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+17 error code ENOENT
+18 error syscall lstat
+19 error path C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%
+20 error errno -4058
+21 error enoent ENOENT: no such file or directory, lstat 'C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%'
+22 error enoent This is related to npm not being able to find a file.
+22 error enoent
+23 verbose cwd C:\Users\Krishna jadhav\Desktop\web\reactLearnings
+24 verbose os Windows_NT 10.0.22621
+25 verbose node v20.17.0
+26 verbose npm  v10.8.2
+27 notice
+27 notice New [33mminor[39m version of npm available! [33m10.8.2[39m -> [34m10.9.1[39m
+27 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.9.1[39m
+27 notice To update run: [4mnpm install -g npm@10.9.1[24m
+27 notice  { force: true, [Symbol(proc-log.meta)]: true }
+28 verbose exit -4058
+29 verbose code -4058
+30 error A complete log of this run can be found in: C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%LOCALAPPDATA%\npm-cache\_logs\2024-12-02T13_29_00_126Z-debug-0.log
