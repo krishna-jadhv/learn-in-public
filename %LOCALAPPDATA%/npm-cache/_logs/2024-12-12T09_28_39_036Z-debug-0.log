@@ -1,0 +1,29 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.1
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\.npmrc
+5 silly config load:file:C:\Users\Krishna jadhav\.npmrc
+6 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%\npm\etc\npmrc
+7 verbose title npm create vite@latest
+8 verbose argv "create" "vite@latest"
+9 verbose logfile logs-max:10 dir:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%LOCALAPPDATA%\npm-cache\_logs\2024-12-12T09_28_39_036Z-
+10 verbose logfile C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%LOCALAPPDATA%\npm-cache\_logs\2024-12-12T09_28_39_036Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 http fetch GET 200 https://registry.npmjs.org/npm 377ms
+16 http fetch GET 200 https://registry.npmjs.org/create-vite 467ms (cache revalidated)
+17 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+18 verbose cwd C:\Users\Krishna jadhav\Desktop\web\reactLearnings
+19 verbose os Windows_NT 10.0.22621
+20 verbose node v20.17.0
+21 verbose npm  v10.9.1
+22 notice
+22 notice New [36mpatch[39m version of npm available! [36m10.9.1[39m -> [34m10.9.2[39m
+22 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.9.2[39m
+22 notice To update run: [4mnpm install -g npm@10.9.2[24m
+22 notice  { force: true, [Symbol(proc-log.meta)]: true }
+23 verbose exit 0
+24 info ok
