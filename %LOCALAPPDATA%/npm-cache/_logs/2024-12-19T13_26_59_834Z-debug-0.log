@@ -1,0 +1,59 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.1
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\.npmrc
+5 silly config load:file:C:\Users\Krishna jadhav\.npmrc
+6 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%\npm\etc\npmrc
+7 verbose title npm create vite@latest
+8 verbose argv "create" "vite@latest"
+9 verbose logfile logs-max:10 dir:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%LOCALAPPDATA%\npm-cache\_logs\2024-12-19T13_26_59_834Z-
+10 verbose logfile C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%LOCALAPPDATA%\npm-cache\_logs\2024-12-19T13_26_59_834Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 http fetch GET 200 https://registry.npmjs.org/npm 251ms
+16 http fetch GET 200 https://registry.npmjs.org/create-vite 144ms (cache updated)
+17 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+18 silly idealTree buildDeps
+19 silly fetch manifest create-vite@6.1.0
+20 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/create-vite 465ms (cache updated)
+22 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+23 silly placeDep ROOT create-vite@6.1.0 REPLACE for:  want: 6.1.0
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\create-vite',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite.cmd',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite.ps1',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva.cmd',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva.ps1'
+24 silly reify ]
+25 silly reify moves {
+25 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\create-vite': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.create-vite-Um60SHJ3',
+25 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.create-vite-h683Zk11',
+25 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite.cmd': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.create-vite.cmd-6RUgScC8',
+25 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite.ps1': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.create-vite.ps1-9pobVgD5',
+25 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.cva-Aaf41Goz',
+25 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva.cmd': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.cva.cmd-vwttxywh',
+25 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva.ps1': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.cva.ps1-TVbbroNc'
+25 silly reify }
+26 silly audit bulk request { 'create-vite': [ '6.1.0' ] }
+27 http cache create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.1.0.tgz 0ms (cache hit)
+28 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.1.0.tgz. Extracting by manifest.
+29 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-6.1.0.tgz 452ms (cache miss)
+30 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 706ms
+31 silly audit report {}
+32 verbose cwd C:\Users\Krishna jadhav\Desktop\web\reactLearnings
+33 verbose os Windows_NT 10.0.22621
+34 verbose node v20.17.0
+35 verbose npm  v10.9.1
+36 notice
+36 notice New [31mmajor[39m version of npm available! [31m10.9.1[39m -> [34m11.0.0[39m
+36 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.0.0[39m
+36 notice To update run: [4mnpm install -g npm@11.0.0[24m
+36 notice  { force: true, [Symbol(proc-log.meta)]: true }
+37 verbose exit 0
+38 info ok

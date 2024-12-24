@@ -1,0 +1,53 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.1
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\.npmrc
+5 silly config load:file:C:\Users\Krishna jadhav\.npmrc
+6 silly config load:file:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%APPDATA%\npm\etc\npmrc
+7 verbose title npm create vite@latest
+8 verbose argv "create" "vite@latest"
+9 verbose logfile logs-max:10 dir:C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%LOCALAPPDATA%\npm-cache\_logs\2024-12-24T05_45_01_758Z-
+10 verbose logfile C:\Users\Krishna jadhav\Desktop\web\reactLearnings\%LOCALAPPDATA%\npm-cache\_logs\2024-12-24T05_45_01_758Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 http fetch GET 200 https://registry.npmjs.org/create-vite 395ms (cache updated)
+16 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+17 silly idealTree buildDeps
+18 silly fetch manifest create-vite@6.1.1
+19 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/create-vite 96ms (cache updated)
+21 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+22 silly placeDep ROOT create-vite@6.1.1 REPLACE for:  want: 6.1.1
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\create-vite',
+23 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite',
+23 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite.cmd',
+23 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite.ps1',
+23 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva',
+23 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva.cmd',
+23 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva.ps1'
+23 silly reify ]
+24 silly reify moves {
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\create-vite': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.create-vite-Um60SHJ3',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.create-vite-h683Zk11',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite.cmd': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.create-vite.cmd-6RUgScC8',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\create-vite.ps1': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.create-vite.ps1-9pobVgD5',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.cva-Aaf41Goz',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva.cmd': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.cva.cmd-vwttxywh',
+24 silly reify   'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\cva.ps1': 'C:\\Users\\Krishna jadhav\\Desktop\\web\\reactLearnings\\%LOCALAPPDATA%\\npm-cache\\_npx\\1415fee72ff6294b\\node_modules\\.bin\\.cva.ps1-TVbbroNc'
+24 silly reify }
+25 silly audit bulk request { 'create-vite': [ '6.1.1' ] }
+26 http cache create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.1.1.tgz 1ms (cache hit)
+27 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.1.1.tgz. Extracting by manifest.
+28 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 302ms
+29 silly audit report {}
+30 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-6.1.1.tgz 415ms (cache miss)
+31 verbose cwd C:\Users\Krishna jadhav\Desktop\web\reactLearnings
+32 verbose os Windows_NT 10.0.22621
+33 verbose node v20.17.0
+34 verbose npm  v10.9.1
+35 verbose exit 0
+36 info ok
